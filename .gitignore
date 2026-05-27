@@ -1,0 +1,10 @@
+bird_ai_service/env/
+bird_ai_service/venv/
+bird_ai_service/.venv/
+**/__pycache__/
+*.pyc
+bird_ai_service/models/
+bird_ai_service/uploads/
+*.ogg
+*.mp3
+*.wav
