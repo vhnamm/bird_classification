@@ -1,10 +1,36 @@
-bird_ai_service/env/
-bird_ai_service/venv/
-bird_ai_service/.venv/
-**/__pycache__/
-*.pyc
+# ==========================================
+# 1. JAVA SPRING BOOT (Thư mục BE)
+# ==========================================
+BE/target/
+BE/out/
+BE/.idea/
+BE/.mvn/
+BE/mvnw
+BE/mvnw.cmd
+
+# ==========================================
+# 2. PYTHON FASTAPI (Thư mục bird_ai_service & env)
+# ==========================================
+# Thư mục env nằm ngay ở gốc ngoài cùng
+env/
+
+# Các thư mục rác và file test của Python
 bird_ai_service/models/
 bird_ai_service/uploads/
+**/__pycache__/
+*.pyc
+
+# ==========================================
+# 3. REACT VITE (Thư mục FE)
+# ==========================================
+FE/node_modules/
+FE/.vite/
+FE/dist/
+
+# ==========================================
+# 4. AUDIO FILES & LOGS
+# ==========================================
 *.ogg
 *.mp3
 *.wav
+*.log
